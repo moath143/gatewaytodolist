@@ -1,0 +1,86 @@
+header h1{
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-task .form-input,
+.form-task .btn-input{
+  background: #1F1F20;
+  border: none;
+  outline: none;
+  color: #BC7ABC;
+  font-size: 20px;
+}
+
+.form-task .form-input{
+  width: 40%;
+  text-indent: 10px;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+.form-task .btn-input{
+    padding: 0 15px;
+    border-left: 1px solid;
+}
+
+.task-list .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242426;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.task-list .task .task-main{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.task-list .task .task-main .count{
+  width: 30px;
+    height: 30px;
+    background: #1A1B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.control button{
+    width: 150px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.info-input input{
+      background: #1F1F20;
+    border: none;
+    outline: none;
+    color: #BC7ABC;
+    font-size: 20px;
+    width: 446px;
+    text-indent: 10px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.task-list .update{
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 25px 0 0 0;
+}

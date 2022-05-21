@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cairo', sans-serif !important;
+  background: #1A1B1C !important;
+  color: #BC7ABC !important;
+}
+
+
